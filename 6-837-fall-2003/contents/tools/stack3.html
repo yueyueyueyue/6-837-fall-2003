@@ -1,0 +1,46 @@
+<html><center><h1>Using Stack Struct in C</h1></center>
+
+<pre><FONT size=5>
+void main()
+{
+    Stack S;
+
+    Stack_Init(&S);
+
+    Stack_Push(&S, 30);
+    Stack_Push(&S, 40);
+
+    printf("Top: %d\n", Stack_Top(&S));
+
+    Stack_Pop(&S);
+    printf("Top: %d\n", Stack_Top(&S));
+
+    Stack_Pop(&S);
+    printf("Top: %d\n", Stack_Top(&S));
+}
+</pre>
+
+
+<br>
+<br>
+<br>
+
+<center><h1>Using Stack Class in C++</h1></center>
+
+<pre><FONT size=5>
+void main()
+{
+    Stack S;
+
+    S.Push(30);
+    S.Push(40);
+
+    printf("Top: %d\n", S.Top());
+
+    S.Pop();
+    printf("Top: %d\n", S.Top());
+
+    S.Pop();
+    printf("Top: %d\n", S.Top());
+}
+</pre>

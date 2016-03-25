@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_6-837-computer-graphics-fall-2003"
+          version="2014-1-23T6:18:27"
+          cwsp:packageType="Course"
+          xml:base="6-837-fall-2003/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Computer Graphics</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">6.837</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Fall 2003</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Durand, Frédo</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2014-1-23</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Cutler, Barbara</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2014-1-23</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:relation uniqueElementName="relation">
+        	<lom:kind uniqueElementName="kind">
+        		<lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+        		<lom:value uniqueElementName="value">hasversion</lom:value>
+        	</lom:kind>
+        	<lom:resource uniqueElementName="resource">
+        		<lom:identifier>
+        			<lom:catalog uniqueElementName="catalog">URI</lom:catalog>
+        			<lom:entry uniqueElementName="entry">http://mit-ocw-thai.eng.chula.ac.th/MIT_THAI/e27e34e28e27e01e23e23e21e44e1fe1fe49e32e41e25e30e04e2de21e1ee34e27e40e15e2de23e4c-electrical-engineering-and-computer-science/6.837-e40e23e02e20e32e1ee04e2de21e1ee34e27e40e15e2de23e4c-e24e14e39e43e1ae44e21e49e23e48e27e07-2003-computer-graphics-fall-2003</lom:entry>
+        		</lom:identifier>
+        		<lom:description uniqueElementName="description">
+        			<lom:string language="en"></lom:string>
+        		</lom:description>
+        	</lom:resource>
+        </lom:relation>
+        <lom:relation uniqueElementName="relation">
+        	<lom:kind uniqueElementName="kind">
+        		<lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+        		<lom:value uniqueElementName="value">hasversion</lom:value>
+        	</lom:kind>
+        	<lom:resource uniqueElementName="resource">
+        		<lom:identifier>
+        			<lom:catalog uniqueElementName="catalog">URI</lom:catalog>
+        			<lom:entry uniqueElementName="entry">http://mit-ocw.sbu.ac.ir/Default.aspx?tabid=3558</lom:entry>
+        		</lom:identifier>
+        		<lom:description uniqueElementName="description">
+        			<lom:string language="en"></lom:string>
+        		</lom:description>
+        	</lom:resource>
+        </lom:relation>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Computer Science</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Graphics and Visualization</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Computer Science</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Algorithms and Data Structures</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Computer Science</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Programming Languages</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_6-837-computer-graphics-fall-2003">
+        <organization identifier="ocw_6-837-computer-graphics-fall-2003">
+            <title>Computer Graphics</title>
+            <item identifier="i_6-837-computer-graphics-fall-2003.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2014-1-23">
+				<title>Computer Graphics</title>
+				<item identifier="i_6-837-computer-graphics-fall-2003.6-837f03.jpg"
+          identifierref="r_contents.6-837f03.jpg">
+				<title>6-837f03.jpg</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.6-837f03-th.jpg"
+          identifierref="r_contents.6-837f03-th.jpg">
+				<title>6-837f03-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_6-837-computer-graphics-fall-2003.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-23">
+				<title>Syllabus</title>
+			</item>
+            <item identifier="i_6-837-computer-graphics-fall-2003.calendar"
+                  identifierref="r_contents.calendar.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-23">
+				<title>Calendar</title>
+			</item>
+            <item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes"
+                  identifierref="r_contents.lecture-notes.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-23">
+				<title>Lecture Notes</title>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.17_shadows.pdf"
+          identifierref="r_contents.lecture-notes.17_shadows.pdf">
+				<title>17_shadows.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.1_2_cpp_tutor.pdf"
+          identifierref="r_contents.lecture-notes.1_2_cpp_tutor.pdf">
+				<title>1_2_cpp_tutor.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.18_radiosity.pdf"
+          identifierref="r_contents.lecture-notes.18_radiosity.pdf">
+				<title>18_radiosity.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.07_local_illum.pdf"
+          identifierref="r_contents.lecture-notes.07_local_illum.pdf">
+				<title>07_local_illum.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.5_2_lin_algebra.pdf"
+          identifierref="r_contents.lecture-notes.5_2_lin_algebra.pdf">
+				<title>5_2_lin_algebra.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.5_1_trans_hier.pdf"
+          identifierref="r_contents.lecture-notes.5_1_trans_hier.pdf">
+				<title>5_1_trans_hier.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.19_montecarlo.pdf"
+          identifierref="r_contents.lecture-notes.19_montecarlo.pdf">
+				<title>19_montecarlo.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.10_keyfrm_ik_opt.pdf"
+          identifierref="r_contents.lecture-notes.10_keyfrm_ik_opt.pdf">
+				<title>10_keyfrm_ik_opt.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.16_clipping.pdf"
+          identifierref="r_contents.lecture-notes.16_clipping.pdf">
+				<title>16_clipping.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.06_raytrace.pdf"
+          identifierref="r_contents.lecture-notes.06_raytrace.pdf">
+				<title>06_raytrace.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.13_pipeline_proj.pdf"
+          identifierref="r_contents.lecture-notes.13_pipeline_proj.pdf">
+				<title>13_pipeline_proj.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.3_ray_cast2.pdf"
+          identifierref="r_contents.lecture-notes.3_ray_cast2.pdf">
+				<title>3_ray_cast2.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.12_animation_ii.pdf"
+          identifierref="r_contents.lecture-notes.12_animation_ii.pdf">
+				<title>12_animation_ii.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.02_raycast.pdf"
+          identifierref="r_contents.lecture-notes.02_raycast.pdf">
+				<title>02_raycast.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.09_curve_surf.pdf"
+          identifierref="r_contents.lecture-notes.09_curve_surf.pdf">
+				<title>09_curve_surf.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.01_1_intro_print.pdf"
+          identifierref="r_contents.lecture-notes.01_1_intro_print.pdf">
+				<title>01_1_intro_print.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.4_transform.pdf"
+          identifierref="r_contents.lecture-notes.4_transform.pdf">
+				<title>4_transform.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.23_aliasing.pdf"
+          identifierref="r_contents.lecture-notes.23_aliasing.pdf">
+				<title>23_aliasing.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.20_color.pdf"
+          identifierref="r_contents.lecture-notes.20_color.pdf">
+				<title>20_color.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.22_texture.pdf"
+          identifierref="r_contents.lecture-notes.22_texture.pdf">
+				<title>22_texture.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.14_ln_clp_raster.pdf"
+          identifierref="r_contents.lecture-notes.14_ln_clp_raster.pdf">
+				<title>14_ln_clp_raster.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.11_anim_ii_cov.pdf"
+          identifierref="r_contents.lecture-notes.11_anim_ii_cov.pdf">
+				<title>11_anim_ii_cov.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.8_grid_acc.pdf"
+          identifierref="r_contents.lecture-notes.8_grid_acc.pdf">
+				<title>8_grid_acc.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.21_color_ii.pdf"
+          identifierref="r_contents.lecture-notes.21_color_ii.pdf">
+				<title>21_color_ii.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.lecture-notes.15_raster.pdf"
+          identifierref="r_contents.lecture-notes.15_raster.pdf">
+				<title>15_raster.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_6-837-computer-graphics-fall-2003.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-23">
+				<title>Assignments</title>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene_parser.C"
+          identifierref="r_contents.assignments.scene_parser.C">
+				<title>scene_parser.C</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.raytracing_stats.C"
+          identifierref="r_contents.assignments.raytracing_stats.C">
+				<title>raytracing_stats.C</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene2_plane_sphere.txt"
+          identifierref="r_contents.assignments.scene2_plane_sphere.txt">
+				<title>scene2_plane_sphere.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.matrix.C"
+          identifierref="r_contents.assignments.matrix.C">
+				<title>matrix.C</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.grammar_3.pdf"
+          identifierref="r_contents.assignments.grammar_3.pdf">
+				<title>grammar_3.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.bunny_1k.obj"
+          identifierref="r_contents.assignments.bunny_1k.obj">
+				<title>bunny_1k.obj</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.assignment_1.pdf"
+          identifierref="r_contents.assignments.assignment_1.pdf">
+				<title>assignment_1.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.bunny_40k.obj"
+          identifierref="r_contents.assignments.bunny_40k.obj">
+				<title>bunny_40k.obj</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.samp_res_3.pdf"
+          identifierref="r_contents.assignments.samp_res_3.pdf">
+				<title>samp_res_3.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene7_checkerboard.txt"
+          identifierref="r_contents.assignments.scene7_checkerboard.txt">
+				<title>scene7_checkerboard.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.grammar_1.pdf"
+          identifierref="r_contents.assignments.grammar_1.pdf">
+				<title>grammar_1.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.cube.obj"
+          identifierref="r_contents.assignments.cube.obj">
+				<title>cube.obj</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene5_transparent_bars.txt"
+          identifierref="r_contents.assignments.scene5_transparent_bars.txt">
+				<title>scene5_transparent_bars.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene4_rasterize_sphere_5x5x5.txt"
+          identifierref="r_contents.assignments.scene4_rasterize_sphere_5x5x5.txt">
+				<title>scene4_rasterize_sphere_5x5x5.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.matrix.h"
+          identifierref="r_contents.assignments.matrix.h">
+				<title>matrix.h</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene4_plane.txt"
+          identifierref="r_contents.assignments.scene4_plane.txt">
+				<title>scene4_plane.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene3_perspective_camera.txt"
+          identifierref="r_contents.assignments.scene3_perspective_camera.txt">
+				<title>scene3_perspective_camera.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.sierpinski_triangle.txt"
+          identifierref="r_contents.assignments.sierpinski_triangle.txt">
+				<title>sierpinski_triangle.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.samp_res_5.pdf"
+          identifierref="r_contents.assignments.samp_res_5.pdf">
+				<title>samp_res_5.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.samp_res_2.pdf"
+          identifierref="r_contents.assignments.samp_res_2.pdf">
+				<title>samp_res_2.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene6_bars.txt"
+          identifierref="r_contents.assignments.scene6_bars.txt">
+				<title>scene6_bars.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene1_cube_mesh.txt"
+          identifierref="r_contents.assignments.scene1_cube_mesh.txt">
+				<title>scene1_cube_mesh.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene12_point_light_circle_d2_attenuation.txt"
+          identifierref="r_contents.assignments.scene12_point_light_circle_d2_attenuation.txt">
+				<title>scene12_point_light_circle_d2_attenuation.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.assignment_3.pdf"
+          identifierref="r_contents.assignments.assignment_3.pdf">
+				<title>assignment_3.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.ray.h"
+          identifierref="r_contents.assignments.ray.h">
+				<title>ray.h</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.image.C"
+          identifierref="r_contents.assignments.image.C">
+				<title>image.C</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene2_bunny_mesh_5k.txt"
+          identifierref="r_contents.assignments.scene2_bunny_mesh_5k.txt">
+				<title>scene2_bunny_mesh_5k.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene11_axes_cube.txt"
+          identifierref="r_contents.assignments.scene11_axes_cube.txt">
+				<title>scene11_axes_cube.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.vectors.h"
+          identifierref="r_contents.assignments.vectors.h">
+				<title>vectors.h</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.parse.C"
+          identifierref="r_contents.assignments.parse.C">
+				<title>parse.C</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene_parser.h"
+          identifierref="r_contents.assignments.scene_parser.h">
+				<title>scene_parser.h</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.grammar_2.pdf"
+          identifierref="r_contents.assignments.grammar_2.pdf">
+				<title>grammar_2.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.image.h"
+          identifierref="r_contents.assignments.image.h">
+				<title>image.h</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene1_diffuse_light.txt"
+          identifierref="r_contents.assignments.scene1_diffuse_light.txt">
+				<title>scene1_diffuse_light.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene5_sphere_triangle.txt"
+          identifierref="r_contents.assignments.scene5_sphere_triangle.txt">
+				<title>scene5_sphere_triangle.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.light.h"
+          identifierref="r_contents.assignments.light.h">
+				<title>light.h</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene8_rotated_sphere.txt"
+          identifierref="r_contents.assignments.scene8_rotated_sphere.txt">
+				<title>scene8_rotated_sphere.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene10_bunny.txt"
+          identifierref="r_contents.assignments.scene10_bunny.txt">
+				<title>scene10_bunny.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.hit.h"
+          identifierref="r_contents.assignments.hit.h">
+				<title>hit.h</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.bunny_200.obj"
+          identifierref="r_contents.assignments.bunny_200.obj">
+				<title>bunny_200.obj</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.assignment_2.pdf"
+          identifierref="r_contents.assignments.assignment_2.pdf">
+				<title>assignment_2.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene3_colored_lights.txt"
+          identifierref="r_contents.assignments.scene3_colored_lights.txt">
+				<title>scene3_colored_lights.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.dragon.txt"
+          identifierref="r_contents.assignments.dragon.txt">
+				<title>dragon.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene7_squashed_sphere.txt"
+          identifierref="r_contents.assignments.scene7_squashed_sphere.txt">
+				<title>scene7_squashed_sphere.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.giant_x.txt"
+          identifierref="r_contents.assignments.giant_x.txt">
+				<title>giant_x.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.raytracing_stats.h"
+          identifierref="r_contents.assignments.raytracing_stats.h">
+				<title>raytracing_stats.h</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene4_exponent_variations.txt"
+          identifierref="r_contents.assignments.scene4_exponent_variations.txt">
+				<title>scene4_exponent_variations.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene3_spheres.txt"
+          identifierref="r_contents.assignments.scene3_spheres.txt">
+				<title>scene3_spheres.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene2.txt"
+          identifierref="r_contents.assignments.scene2.txt">
+				<title>scene2.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene6_bunny_mesh_1k.txt"
+          identifierref="r_contents.assignments.scene6_bunny_mesh_1k.txt">
+				<title>scene6_bunny_mesh_1k.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene6_cube_mesh.txt"
+          identifierref="r_contents.assignments.scene6_cube_mesh.txt">
+				<title>scene6_cube_mesh.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene4.txt"
+          identifierref="r_contents.assignments.scene4.txt">
+				<title>scene4.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.camera_additions.txt"
+          identifierref="r_contents.assignments.camera_additions.txt">
+				<title>camera_additions.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.fern.txt"
+          identifierref="r_contents.assignments.fern.txt">
+				<title>fern.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene9_rotated_squashed_sphere.txt"
+          identifierref="r_contents.assignments.scene9_rotated_squashed_sphere.txt">
+				<title>scene9_rotated_squashed_sphere.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene11_point_light_circle_d_attenuation.txt"
+          identifierref="r_contents.assignments.scene11_point_light_circle_d_attenuation.txt">
+				<title>scene11_point_light_circle_d_attenuation.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene10_point_light_circle.txt"
+          identifierref="r_contents.assignments.scene10_point_light_circle.txt">
+				<title>scene10_point_light_circle.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene8_bunny_mesh_40k.txt"
+          identifierref="r_contents.assignments.scene8_bunny_mesh_40k.txt">
+				<title>scene8_bunny_mesh_40k.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene8_transparent_sphere_20.txt"
+          identifierref="r_contents.assignments.scene8_transparent_sphere_20.txt">
+				<title>scene8_transparent_sphere_20.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.bunny_5k.obj"
+          identifierref="r_contents.assignments.bunny_5k.obj">
+				<title>bunny_5k.obj</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene1_exponent_variations.txt"
+          identifierref="r_contents.assignments.scene1_exponent_variations.txt">
+				<title>scene1_exponent_variations.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.assignment_4.pdf"
+          identifierref="r_contents.assignments.assignment_4.pdf">
+				<title>assignment_4.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.light.C"
+          identifierref="r_contents.assignments.light.C">
+				<title>light.C</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene2_ambient_light.txt"
+          identifierref="r_contents.assignments.scene2_ambient_light.txt">
+				<title>scene2_ambient_light.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.samp_res_4.pdf"
+          identifierref="r_contents.assignments.samp_res_4.pdf">
+				<title>samp_res_4.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.samp_res_1.pdf"
+          identifierref="r_contents.assignments.samp_res_1.pdf">
+				<title>samp_res_1.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene9_point_light_distance.txt"
+          identifierref="r_contents.assignments.scene9_point_light_distance.txt">
+				<title>scene9_point_light_distance.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.glCanvas.h"
+          identifierref="r_contents.assignments.glCanvas.h">
+				<title>glCanvas.h</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.material_additions.txt"
+          identifierref="r_contents.assignments.material_additions.txt">
+				<title>material_additions.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene8_transparent_sphere_checkerboard.txt"
+          identifierref="r_contents.assignments.scene8_transparent_sphere_checkerboard.txt">
+				<title>scene8_transparent_sphere_checkerboard.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene1.txt"
+          identifierref="r_contents.assignments.scene1.txt">
+				<title>scene1.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene5_rasterize_sphere_20x20x20.txt"
+          identifierref="r_contents.assignments.scene5_rasterize_sphere_20x20x20.txt">
+				<title>scene5_rasterize_sphere_20x20x20.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene7_transparent_sphere_11.txt"
+          identifierref="r_contents.assignments.scene7_transparent_sphere_11.txt">
+				<title>scene7_transparent_sphere_11.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene5_colored_lights.txt"
+          identifierref="r_contents.assignments.scene5_colored_lights.txt">
+				<title>scene5_colored_lights.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene7_bunny_mesh_5k.txt"
+          identifierref="r_contents.assignments.scene7_bunny_mesh_5k.txt">
+				<title>scene7_bunny_mesh_5k.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene3_rasterize_sphere_5x5x5.txt"
+          identifierref="r_contents.assignments.scene3_rasterize_sphere_5x5x5.txt">
+				<title>scene3_rasterize_sphere_5x5x5.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.object3d_additions.txt"
+          identifierref="r_contents.assignments.object3d_additions.txt">
+				<title>object3d_additions.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene3.txt"
+          identifierref="r_contents.assignments.scene3.txt">
+				<title>scene3.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.object3dvector.h"
+          identifierref="r_contents.assignments.object3dvector.h">
+				<title>object3dvector.h</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.assignment_0.pdf"
+          identifierref="r_contents.assignments.assignment_0.pdf">
+				<title>assignment_0.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene2_bunny_mesh_200.txt"
+          identifierref="r_contents.assignments.scene2_bunny_mesh_200.txt">
+				<title>scene2_bunny_mesh_200.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene4_reflective_sphere.txt"
+          identifierref="r_contents.assignments.scene4_reflective_sphere.txt">
+				<title>scene4_reflective_sphere.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.scene6_transparent_sphere_10.txt"
+          identifierref="r_contents.assignments.scene6_transparent_sphere_10.txt">
+				<title>scene6_transparent_sphere_10.txt</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.glCanvas.C"
+          identifierref="r_contents.assignments.glCanvas.C">
+				<title>glCanvas.C</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.assignments.assignment_5.pdf"
+          identifierref="r_contents.assignments.assignment_5.pdf">
+				<title>assignment_5.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_6-837-computer-graphics-fall-2003.exams"
+                  identifierref="r_contents.exams.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-23">
+				<title>Exams</title>
+				<item identifier="i_6-837-computer-graphics-fall-2003.exams.quiz_2.pdf"
+          identifierref="r_contents.exams.quiz_2.pdf">
+				<title>quiz_2.pdf</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.exams.quiz_1.pdf"
+          identifierref="r_contents.exams.quiz_1.pdf">
+				<title>quiz_1.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_6-837-computer-graphics-fall-2003.tools"
+                  identifierref="r_contents.tools.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-23">
+				<title>Tools</title>
+				<item identifier="i_6-837-computer-graphics-fall-2003.tools.new_delete.html"
+          identifierref="r_contents.tools.new_delete.html">
+				<title>new_delete.html</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.tools.stack3.html"
+          identifierref="r_contents.tools.stack3.html">
+				<title>stack3.html</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.tools.stack1.html"
+          identifierref="r_contents.tools.stack1.html">
+				<title>stack1.html</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.tools.pointers_variables.html"
+          identifierref="r_contents.tools.pointers_variables.html">
+				<title>pointers_variables.html</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.tools.stack2.html"
+          identifierref="r_contents.tools.stack2.html">
+				<title>stack2.html</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.tools.stack5.html"
+          identifierref="r_contents.tools.stack5.html">
+				<title>stack5.html</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.tools.stack4.html"
+          identifierref="r_contents.tools.stack4.html">
+				<title>stack4.html</title>
+				</item>
+				<item identifier="i_6-837-computer-graphics-fall-2003.tools.c-_notes"
+          identifierref="r_contents.tools.c-_notes.index.htm">
+				<title>Notes from C++ Introduction</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2014-1-23">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2014-1-23">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2014-1-23">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.assignments.matrix.h"
+                  type="other"
+                  href="contents/assignments/matrix.h">
+            <metadata>
+                <adlcp:location>contents/assignments/matrix.h.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/matrix.h"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.raytracing_stats.h"
+                  type="other"
+                  href="contents/assignments/raytracing_stats.h">
+            <metadata>
+                <adlcp:location>contents/assignments/raytracing_stats.h.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/raytracing_stats.h"/>
+                        
+        </resource>
+        <resource identifier="r_contents.tools.pointers_variables.html"
+                  type="other"
+                  href="contents/tools/pointers_variables.html">
+            <metadata>
+                <adlcp:location>contents/tools/pointers_variables.html.xml</adlcp:location>
+            </metadata>
+            <file href="contents/tools/pointers_variables.html"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.8_grid_acc.pdf"
+                  type="other"
+                  href="contents/lecture-notes/8_grid_acc.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/8_grid_acc.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/8_grid_acc.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene5_transparent_bars.txt"
+                  type="other"
+                  href="contents/assignments/scene5_transparent_bars.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene5_transparent_bars.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene5_transparent_bars.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.samp_res_2.pdf"
+                  type="other"
+                  href="contents/assignments/samp_res_2.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/samp_res_2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/samp_res_2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene4_exponent_variations.txt"
+                  type="other"
+                  href="contents/assignments/scene4_exponent_variations.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene4_exponent_variations.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene4_exponent_variations.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.tools.stack2.html"
+                  type="other"
+                  href="contents/tools/stack2.html">
+            <metadata>
+                <adlcp:location>contents/tools/stack2.html.xml</adlcp:location>
+            </metadata>
+            <file href="contents/tools/stack2.html"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ray.h"
+                  type="other"
+                  href="contents/assignments/ray.h">
+            <metadata>
+                <adlcp:location>contents/assignments/ray.h.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ray.h"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.17_shadows.pdf"
+                  type="other"
+                  href="contents/lecture-notes/17_shadows.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/17_shadows.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/17_shadows.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.20_color.pdf"
+                  type="other"
+                  href="contents/lecture-notes/20_color.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/20_color.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/20_color.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene3_spheres.txt"
+                  type="other"
+                  href="contents/assignments/scene3_spheres.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene3_spheres.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene3_spheres.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.1_2_cpp_tutor.pdf"
+                  type="other"
+                  href="contents/lecture-notes/1_2_cpp_tutor.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/1_2_cpp_tutor.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/1_2_cpp_tutor.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.parse.C"
+                  type="other"
+                  href="contents/assignments/parse.C">
+            <metadata>
+                <adlcp:location>contents/assignments/parse.C.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/parse.C"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.assignment_5.pdf"
+                  type="other"
+                  href="contents/assignments/assignment_5.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/assignment_5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/assignment_5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.6-837f03.jpg"
+                  type="other" href="contents/6-837f03.jpg">
+            <metadata>
+                <adlcp:location>contents/6-837f03.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/6-837f03.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene5_sphere_triangle.txt"
+                  type="other"
+                  href="contents/assignments/scene5_sphere_triangle.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene5_sphere_triangle.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene5_sphere_triangle.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.tools.stack4.html"
+                  type="other"
+                  href="contents/tools/stack4.html">
+            <metadata>
+                <adlcp:location>contents/tools/stack4.html.xml</adlcp:location>
+            </metadata>
+            <file href="contents/tools/stack4.html"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.09_curve_surf.pdf"
+                  type="other"
+                  href="contents/lecture-notes/09_curve_surf.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/09_curve_surf.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/09_curve_surf.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.6-837f03-th.jpg"
+                  type="other"
+                  href="contents/6-837f03-th.jpg">
+            <metadata>
+                <adlcp:location>contents/6-837f03-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/6-837f03-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.grammar_3.pdf"
+                  type="other"
+                  href="contents/assignments/grammar_3.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/grammar_3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/grammar_3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.assignment_2.pdf"
+                  type="other"
+                  href="contents/assignments/assignment_2.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/assignment_2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/assignment_2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.tools.c-_notes.index.htm"
+                  type="webcontent"
+                  href="contents/tools/c-_notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/tools/c-_notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/tools/c-_notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.07_local_illum.pdf"
+                  type="other"
+                  href="contents/lecture-notes/07_local_illum.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/07_local_illum.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/07_local_illum.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.raytracing_stats.C"
+                  type="other"
+                  href="contents/assignments/raytracing_stats.C">
+            <metadata>
+                <adlcp:location>contents/assignments/raytracing_stats.C.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/raytracing_stats.C"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.5_1_trans_hier.pdf"
+                  type="other"
+                  href="contents/lecture-notes/5_1_trans_hier.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/5_1_trans_hier.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/5_1_trans_hier.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene6_cube_mesh.txt"
+                  type="other"
+                  href="contents/assignments/scene6_cube_mesh.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene6_cube_mesh.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene6_cube_mesh.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.sierpinski_triangle.txt"
+                  type="other"
+                  href="contents/assignments/sierpinski_triangle.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/sierpinski_triangle.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/sierpinski_triangle.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.16_clipping.pdf"
+                  type="other"
+                  href="contents/lecture-notes/16_clipping.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/16_clipping.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/16_clipping.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene5_rasterize_sphere_20x20x20.txt"
+                  type="other"
+                  href="contents/assignments/scene5_rasterize_sphere_20x20x20.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene5_rasterize_sphere_20x20x20.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene5_rasterize_sphere_20x20x20.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene_parser.h"
+                  type="other"
+                  href="contents/assignments/scene_parser.h">
+            <metadata>
+                <adlcp:location>contents/assignments/scene_parser.h.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene_parser.h"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene12_point_light_circle_d2_attenuation.txt"
+                  type="other"
+                  href="contents/assignments/scene12_point_light_circle_d2_attenuation.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene12_point_light_circle_d2_attenuation.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene12_point_light_circle_d2_attenuation.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.19_montecarlo.pdf"
+                  type="other"
+                  href="contents/lecture-notes/19_montecarlo.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/19_montecarlo.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/19_montecarlo.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene7_transparent_sphere_11.txt"
+                  type="other"
+                  href="contents/assignments/scene7_transparent_sphere_11.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene7_transparent_sphere_11.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene7_transparent_sphere_11.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene11_axes_cube.txt"
+                  type="other"
+                  href="contents/assignments/scene11_axes_cube.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene11_axes_cube.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene11_axes_cube.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.matrix.C"
+                  type="other"
+                  href="contents/assignments/matrix.C">
+            <metadata>
+                <adlcp:location>contents/assignments/matrix.C.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/matrix.C"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.samp_res_1.pdf"
+                  type="other"
+                  href="contents/assignments/samp_res_1.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/samp_res_1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/samp_res_1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.index.htm"
+                  type="webcontent"
+                  href="contents/exams/index.htm">
+            <metadata>
+                <adlcp:location>contents/exams/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.scene2_bunny_mesh_5k.txt"
+                  type="other"
+                  href="contents/assignments/scene2_bunny_mesh_5k.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene2_bunny_mesh_5k.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene2_bunny_mesh_5k.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.image.h"
+                  type="other"
+                  href="contents/assignments/image.h">
+            <metadata>
+                <adlcp:location>contents/assignments/image.h.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/image.h"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene5_colored_lights.txt"
+                  type="other"
+                  href="contents/assignments/scene5_colored_lights.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene5_colored_lights.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene5_colored_lights.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.fern.txt"
+                  type="other"
+                  href="contents/assignments/fern.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/fern.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/fern.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.dragon.txt"
+                  type="other"
+                  href="contents/assignments/dragon.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/dragon.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/dragon.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene2_bunny_mesh_200.txt"
+                  type="other"
+                  href="contents/assignments/scene2_bunny_mesh_200.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene2_bunny_mesh_200.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene2_bunny_mesh_200.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.scene7_bunny_mesh_5k.txt"
+                  type="other"
+                  href="contents/assignments/scene7_bunny_mesh_5k.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene7_bunny_mesh_5k.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene7_bunny_mesh_5k.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene9_rotated_squashed_sphere.txt"
+                  type="other"
+                  href="contents/assignments/scene9_rotated_squashed_sphere.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene9_rotated_squashed_sphere.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene9_rotated_squashed_sphere.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.tools.index.htm"
+                  type="webcontent"
+                  href="contents/tools/index.htm">
+            <metadata>
+                <adlcp:location>contents/tools/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/tools/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.01_1_intro_print.pdf"
+                  type="other"
+                  href="contents/lecture-notes/01_1_intro_print.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/01_1_intro_print.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/01_1_intro_print.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene7_squashed_sphere.txt"
+                  type="other"
+                  href="contents/assignments/scene7_squashed_sphere.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene7_squashed_sphere.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene7_squashed_sphere.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.hit.h"
+                  type="other"
+                  href="contents/assignments/hit.h">
+            <metadata>
+                <adlcp:location>contents/assignments/hit.h.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/hit.h"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene3_rasterize_sphere_5x5x5.txt"
+                  type="other"
+                  href="contents/assignments/scene3_rasterize_sphere_5x5x5.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene3_rasterize_sphere_5x5x5.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene3_rasterize_sphere_5x5x5.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene11_point_light_circle_d_attenuation.txt"
+                  type="other"
+                  href="contents/assignments/scene11_point_light_circle_d_attenuation.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene11_point_light_circle_d_attenuation.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene11_point_light_circle_d_attenuation.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene2.txt"
+                  type="other"
+                  href="contents/assignments/scene2.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene2.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene2.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.06_raytrace.pdf"
+                  type="other"
+                  href="contents/lecture-notes/06_raytrace.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/06_raytrace.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/06_raytrace.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.light.h"
+                  type="other"
+                  href="contents/assignments/light.h">
+            <metadata>
+                <adlcp:location>contents/assignments/light.h.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/light.h"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene10_point_light_circle.txt"
+                  type="other"
+                  href="contents/assignments/scene10_point_light_circle.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene10_point_light_circle.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene10_point_light_circle.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.samp_res_5.pdf"
+                  type="other"
+                  href="contents/assignments/samp_res_5.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/samp_res_5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/samp_res_5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.02_raycast.pdf"
+                  type="other"
+                  href="contents/lecture-notes/02_raycast.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/02_raycast.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/02_raycast.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.13_pipeline_proj.pdf"
+                  type="other"
+                  href="contents/lecture-notes/13_pipeline_proj.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/13_pipeline_proj.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/13_pipeline_proj.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.image.C"
+                  type="other"
+                  href="contents/assignments/image.C">
+            <metadata>
+                <adlcp:location>contents/assignments/image.C.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/image.C"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene3.txt"
+                  type="other"
+                  href="contents/assignments/scene3.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene3.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene3.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene8_bunny_mesh_40k.txt"
+                  type="other"
+                  href="contents/assignments/scene8_bunny_mesh_40k.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene8_bunny_mesh_40k.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene8_bunny_mesh_40k.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.bunny_1k.obj"
+                  type="other"
+                  href="contents/assignments/bunny_1k.obj">
+            <metadata>
+                <adlcp:location>contents/assignments/bunny_1k.obj.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bunny_1k.obj"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.3_ray_cast2.pdf"
+                  type="other"
+                  href="contents/lecture-notes/3_ray_cast2.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/3_ray_cast2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/3_ray_cast2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.10_keyfrm_ik_opt.pdf"
+                  type="other"
+                  href="contents/lecture-notes/10_keyfrm_ik_opt.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/10_keyfrm_ik_opt.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/10_keyfrm_ik_opt.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.21_color_ii.pdf"
+                  type="other"
+                  href="contents/lecture-notes/21_color_ii.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/21_color_ii.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/21_color_ii.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.object3dvector.h"
+                  type="other"
+                  href="contents/assignments/object3dvector.h">
+            <metadata>
+                <adlcp:location>contents/assignments/object3dvector.h.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/object3dvector.h"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene8_transparent_sphere_20.txt"
+                  type="other"
+                  href="contents/assignments/scene8_transparent_sphere_20.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene8_transparent_sphere_20.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene8_transparent_sphere_20.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene4_reflective_sphere.txt"
+                  type="other"
+                  href="contents/assignments/scene4_reflective_sphere.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene4_reflective_sphere.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene4_reflective_sphere.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.12_animation_ii.pdf"
+                  type="other"
+                  href="contents/lecture-notes/12_animation_ii.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/12_animation_ii.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/12_animation_ii.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene2_plane_sphere.txt"
+                  type="other"
+                  href="contents/assignments/scene2_plane_sphere.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene2_plane_sphere.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene2_plane_sphere.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.14_ln_clp_raster.pdf"
+                  type="other"
+                  href="contents/lecture-notes/14_ln_clp_raster.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/14_ln_clp_raster.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/14_ln_clp_raster.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.assignment_0.pdf"
+                  type="other"
+                  href="contents/assignments/assignment_0.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/assignment_0.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/assignment_0.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bunny_5k.obj"
+                  type="other"
+                  href="contents/assignments/bunny_5k.obj">
+            <metadata>
+                <adlcp:location>contents/assignments/bunny_5k.obj.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bunny_5k.obj"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene1.txt"
+                  type="other"
+                  href="contents/assignments/scene1.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene1.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene1.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.grammar_1.pdf"
+                  type="other"
+                  href="contents/assignments/grammar_1.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/grammar_1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/grammar_1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.samp_res_3.pdf"
+                  type="other"
+                  href="contents/assignments/samp_res_3.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/samp_res_3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/samp_res_3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.object3d_additions.txt"
+                  type="other"
+                  href="contents/assignments/object3d_additions.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/object3d_additions.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/object3d_additions.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene1_diffuse_light.txt"
+                  type="other"
+                  href="contents/assignments/scene1_diffuse_light.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene1_diffuse_light.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene1_diffuse_light.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene1_exponent_variations.txt"
+                  type="other"
+                  href="contents/assignments/scene1_exponent_variations.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene1_exponent_variations.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene1_exponent_variations.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene4_rasterize_sphere_5x5x5.txt"
+                  type="other"
+                  href="contents/assignments/scene4_rasterize_sphere_5x5x5.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene4_rasterize_sphere_5x5x5.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene4_rasterize_sphere_5x5x5.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.assignment_3.pdf"
+                  type="other"
+                  href="contents/assignments/assignment_3.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/assignment_3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/assignment_3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.calendar.index.htm"
+                  type="webcontent"
+                  href="contents/calendar/index.htm">
+            <metadata>
+                <adlcp:location>contents/calendar/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/calendar/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.scene4.txt"
+                  type="other"
+                  href="contents/assignments/scene4.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene4.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene4.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.assignment_4.pdf"
+                  type="other"
+                  href="contents/assignments/assignment_4.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/assignment_4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/assignment_4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene7_checkerboard.txt"
+                  type="other"
+                  href="contents/assignments/scene7_checkerboard.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene7_checkerboard.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene7_checkerboard.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene8_rotated_sphere.txt"
+                  type="other"
+                  href="contents/assignments/scene8_rotated_sphere.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene8_rotated_sphere.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene8_rotated_sphere.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.4_transform.pdf"
+                  type="other"
+                  href="contents/lecture-notes/4_transform.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/4_transform.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/4_transform.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene6_transparent_sphere_10.txt"
+                  type="other"
+                  href="contents/assignments/scene6_transparent_sphere_10.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene6_transparent_sphere_10.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene6_transparent_sphere_10.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.light.C"
+                  type="other"
+                  href="contents/assignments/light.C">
+            <metadata>
+                <adlcp:location>contents/assignments/light.C.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/light.C"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.camera_additions.txt"
+                  type="other"
+                  href="contents/assignments/camera_additions.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/camera_additions.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/camera_additions.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.11_anim_ii_cov.pdf"
+                  type="other"
+                  href="contents/lecture-notes/11_anim_ii_cov.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/11_anim_ii_cov.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/11_anim_ii_cov.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.quiz_1.pdf"
+                  type="other"
+                  href="contents/exams/quiz_1.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/quiz_1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/quiz_1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.glCanvas.C"
+                  type="other"
+                  href="contents/assignments/glCanvas.C">
+            <metadata>
+                <adlcp:location>contents/assignments/glCanvas.C.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/glCanvas.C"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene2_ambient_light.txt"
+                  type="other"
+                  href="contents/assignments/scene2_ambient_light.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene2_ambient_light.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene2_ambient_light.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.cube.obj"
+                  type="other"
+                  href="contents/assignments/cube.obj">
+            <metadata>
+                <adlcp:location>contents/assignments/cube.obj.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/cube.obj"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene4_plane.txt"
+                  type="other"
+                  href="contents/assignments/scene4_plane.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene4_plane.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene4_plane.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.tools.stack5.html"
+                  type="other"
+                  href="contents/tools/stack5.html">
+            <metadata>
+                <adlcp:location>contents/tools/stack5.html.xml</adlcp:location>
+            </metadata>
+            <file href="contents/tools/stack5.html"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.samp_res_4.pdf"
+                  type="other"
+                  href="contents/assignments/samp_res_4.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/samp_res_4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/samp_res_4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.assignment_1.pdf"
+                  type="other"
+                  href="contents/assignments/assignment_1.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/assignment_1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/assignment_1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.vectors.h"
+                  type="other"
+                  href="contents/assignments/vectors.h">
+            <metadata>
+                <adlcp:location>contents/assignments/vectors.h.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/vectors.h"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.giant_x.txt"
+                  type="other"
+                  href="contents/assignments/giant_x.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/giant_x.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/giant_x.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.5_2_lin_algebra.pdf"
+                  type="other"
+                  href="contents/lecture-notes/5_2_lin_algebra.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/5_2_lin_algebra.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/5_2_lin_algebra.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene6_bunny_mesh_1k.txt"
+                  type="other"
+                  href="contents/assignments/scene6_bunny_mesh_1k.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene6_bunny_mesh_1k.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene6_bunny_mesh_1k.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.quiz_2.pdf"
+                  type="other"
+                  href="contents/exams/quiz_2.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/quiz_2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/quiz_2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene9_point_light_distance.txt"
+                  type="other"
+                  href="contents/assignments/scene9_point_light_distance.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene9_point_light_distance.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene9_point_light_distance.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.23_aliasing.pdf"
+                  type="other"
+                  href="contents/lecture-notes/23_aliasing.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/23_aliasing.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/23_aliasing.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene1_cube_mesh.txt"
+                  type="other"
+                  href="contents/assignments/scene1_cube_mesh.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene1_cube_mesh.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene1_cube_mesh.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene3_colored_lights.txt"
+                  type="other"
+                  href="contents/assignments/scene3_colored_lights.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene3_colored_lights.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene3_colored_lights.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bunny_40k.obj"
+                  type="other"
+                  href="contents/assignments/bunny_40k.obj">
+            <metadata>
+                <adlcp:location>contents/assignments/bunny_40k.obj.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bunny_40k.obj"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.glCanvas.h"
+                  type="other"
+                  href="contents/assignments/glCanvas.h">
+            <metadata>
+                <adlcp:location>contents/assignments/glCanvas.h.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/glCanvas.h"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.22_texture.pdf"
+                  type="other"
+                  href="contents/lecture-notes/22_texture.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/22_texture.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/22_texture.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.tools.new_delete.html"
+                  type="other"
+                  href="contents/tools/new_delete.html">
+            <metadata>
+                <adlcp:location>contents/tools/new_delete.html.xml</adlcp:location>
+            </metadata>
+            <file href="contents/tools/new_delete.html"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.material_additions.txt"
+                  type="other"
+                  href="contents/assignments/material_additions.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/material_additions.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/material_additions.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene6_bars.txt"
+                  type="other"
+                  href="contents/assignments/scene6_bars.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene6_bars.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene6_bars.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.grammar_2.pdf"
+                  type="other"
+                  href="contents/assignments/grammar_2.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/grammar_2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/grammar_2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bunny_200.obj"
+                  type="other"
+                  href="contents/assignments/bunny_200.obj">
+            <metadata>
+                <adlcp:location>contents/assignments/bunny_200.obj.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bunny_200.obj"/>
+                        
+        </resource>
+        <resource identifier="r_contents.tools.stack3.html"
+                  type="other"
+                  href="contents/tools/stack3.html">
+            <metadata>
+                <adlcp:location>contents/tools/stack3.html.xml</adlcp:location>
+            </metadata>
+            <file href="contents/tools/stack3.html"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene8_transparent_sphere_checkerboard.txt"
+                  type="other"
+                  href="contents/assignments/scene8_transparent_sphere_checkerboard.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene8_transparent_sphere_checkerboard.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene8_transparent_sphere_checkerboard.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene10_bunny.txt"
+                  type="other"
+                  href="contents/assignments/scene10_bunny.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene10_bunny.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene10_bunny.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene_parser.C"
+                  type="other"
+                  href="contents/assignments/scene_parser.C">
+            <metadata>
+                <adlcp:location>contents/assignments/scene_parser.C.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene_parser.C"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.scene3_perspective_camera.txt"
+                  type="other"
+                  href="contents/assignments/scene3_perspective_camera.txt">
+            <metadata>
+                <adlcp:location>contents/assignments/scene3_perspective_camera.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/scene3_perspective_camera.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.18_radiosity.pdf"
+                  type="other"
+                  href="contents/lecture-notes/18_radiosity.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/18_radiosity.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/18_radiosity.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.tools.stack1.html"
+                  type="other"
+                  href="contents/tools/stack1.html">
+            <metadata>
+                <adlcp:location>contents/tools/stack1.html.xml</adlcp:location>
+            </metadata>
+            <file href="contents/tools/stack1.html"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.15_raster.pdf"
+                  type="other"
+                  href="contents/lecture-notes/15_raster.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/15_raster.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/15_raster.pdf"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-837-computer-graphics-fall-2003"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.6-837-computer-graphics-fall-2003"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

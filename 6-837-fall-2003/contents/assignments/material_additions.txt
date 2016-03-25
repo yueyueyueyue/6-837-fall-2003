@@ -1,0 +1,49 @@
+// ====================================================================
+// Add this function prototype to the material class and each of
+// its subclasses.
+// ====================================================================
+
+#include <GL/gl.h>
+
+  virtual void glSetMaterial(void) const = 0;
+
+// ====================================================================
+// Below is the function body for the glSetMaterial routine for
+// the PhongMaterial subclass
+// ====================================================================
+
+// ====================================================================
+// Set the OpenGL parameters to render with the given material
+// attributes.
+// ====================================================================
+
+void PhongMaterial::glSetMaterial(void) const
+{
+  // Set the diffuse and ambient colors
+  GLfloat diffuseArray[4];
+  diffuseArray[0] = diffuse.x();
+  diffuseArray[1] = diffuse.y();
+  diffuseArray[2] = diffuse.z();
+  diffuseArray[3] = 1.0;
+  glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, diffuseArray);
+
+  // Set the specular color and exponent
+  GLfloat specularArray[4];
+  specularArray[0] = specular.x();
+  specularArray[1] = specular.y();
+  specularArray[2] = specular.z();
+  specularArray[3] = 1.0;
+  glMaterialfv(GL_FRONT_AND_BACK, GL_SPECULAR, specularArray);
+
+  // GL uses the Blinn Torrance version of Phong so we need to scale
+  // the exponent so it looks similar (NOTE: This is *not* a correct
+  // mapping of Phong to Blinn-Torrance!!  There will be visual
+  // differences between the GL version and the raytraced version!)
+  float glexponent = float(exponent * 4.0f);
+  if (glexponent > 128) glexponent = 128;
+  if (glexponent < 0) glexponent = 0;
+  glMaterialfv(GL_FRONT_AND_BACK, GL_SHININESS, &glexponent);
+}
+
+// ====================================================================
+// ====================================================================

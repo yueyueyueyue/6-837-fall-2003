@@ -1,0 +1,43 @@
+<html><center><h2>Separating Interface and Implementation</h2></center>
+<pre><FONT size=5>
+#define STACK_MAX 100
+
+class Stack {
+
+    private:
+        int        data[STACK_MAX];
+        int        size;
+
+    public:
+        Stack() { size = 0; }    // Constructor
+        ~Stack() { }             // Destructor
+        int Top();
+        void Push(int d);
+        void Pop();
+};
+
+int Stack::Top()
+{
+    if (size == 0) {
+        fprintf(stderr, "Error: stack empty\n");
+        return -1;
+    }
+    return data[size-1];
+}
+
+void Stack::Push(int d)
+{
+    if (size < STACK_MAX)
+        data[size++] = d;
+    else
+        fprintf(stderr, "Error: stack full\n");
+}
+
+void Stack::Pop()
+{
+    if (size == 0)
+        fprintf(stderr, "Error: stack empty\n");
+    else
+        size--;
+}
+</pre>

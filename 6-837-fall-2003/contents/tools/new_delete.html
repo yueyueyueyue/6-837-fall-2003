@@ -1,0 +1,37 @@
+<html><center><h1>C: malloc() and free()</h1></center>
+
+<pre><FONT size=5><hr>
+    Stack *S;
+
+    S = (Stack*) malloc(sizeof(Stack));
+       ...
+    free(S);
+
+<hr>
+    Stack *S_Array;
+
+    S_Array = (Stack*) malloc(sizeof(Stack) * 10));
+       ...
+    free(S_Array);
+
+<hr>
+
+</pre>
+
+<center><h1>C++: new and delete</h1></center>
+<pre><FONT size=5><hr>
+    Stack *S;
+
+    S = new Stack();
+       ...
+    delete S;
+
+<hr>
+    Stack *S_Array;
+
+    S_Array = new Stack[10];
+       ...
+    delete [] S_Array;
+
+<hr>
+</pre>

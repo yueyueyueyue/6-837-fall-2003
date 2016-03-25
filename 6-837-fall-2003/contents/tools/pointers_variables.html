@@ -1,0 +1,40 @@
+<html><center><h1>Pointers to Objects</h1></center>
+
+<pre><FONT size=5>
+void main()
+{
+    Stack *S = new Stack();
+
+    S->Push(30);
+    S->Push(40);
+
+    printf("Top: %d\n", S->Top());
+
+    S->Pop();
+    printf("Top: %d\n", S->Top());
+
+    S->Pop();
+    printf("Top: %d\n", S->Top());
+
+    delete S;
+}
+
+
+
+
+</pre>
+
+<center><h1>Variable Declarations</h1></center>
+
+<pre><FONT size=5>
+void main()
+{
+    int a;
+
+    a = 10;
+
+    Stack S;
+
+    for (int i=0; i<a; i++)
+        S.Push(i);
+}

@@ -1,0 +1,41 @@
+<html><center><h2>Public/Protected/Private Class Members</h2></center>
+<pre><FONT size=5>
+class Stack {
+
+    public:
+        Stack() { size = 0; }    // Constructor
+        ~Stack() { }             // Destructor
+        int Top();
+        void Push(int d);
+        void Pop();
+
+    private:
+        int        data[STACK_MAX];
+        int        size;
+};
+<hr>class Stack {
+
+    public:
+        Stack() { size = 0; }    // Constructor
+        ~Stack() { }             // Destructor
+        int Top();
+        void Push(int d);
+        void Pop();
+
+    protected:
+        int        data[STACK_MAX];
+        int        size;
+};
+<hr>class Stack {
+
+    public:
+        Stack() { size = 0; }    // Constructor
+        ~Stack() { }             // Destructor
+        int Top();
+        void Push(int d);
+        void Pop();
+
+        int        data[STACK_MAX];
+        int        size;
+};
+</pre>
